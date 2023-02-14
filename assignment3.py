@@ -29,3 +29,4 @@ for i in range(0, size):
     list.append(num)
 
 print("The total sum of your inputted array is: " + str(arraysum(list)) + ", and the product of your entire array is: " + str(arrayprod(list)))
+print("The reversed order of your inputted array is: " + str(revarray(list)))
