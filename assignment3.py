@@ -6,3 +6,10 @@ def arraysum(thelist):
     for element in thelist:
         sum = sum + element
     return sum
+
+def arrayprod(thelist):
+    product = 1
+    for element in thelist:
+        product = product * element
+    return product
+
