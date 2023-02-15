@@ -23,10 +23,12 @@ def revarray(thelist):
 size = int(input("Enter the size of the array: "))
 list = []
 
+# Loop to allow the user to input any desired integer into the array
 for i in range(0, size):
     num = int(input("Enter an integer for the %d element of the array: " % i))
 
     list.append(num)
 
+# Print statements
 print("The total sum of your inputted array is: " + str(arraysum(list)) + ", and the product of your entire array is: " + str(arrayprod(list)))
 print("The reversed order of your inputted array is: " + str(revarray(list)))
